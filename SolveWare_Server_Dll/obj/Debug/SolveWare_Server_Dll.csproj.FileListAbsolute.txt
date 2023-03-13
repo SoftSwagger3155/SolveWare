@@ -1,0 +1,6 @@
+D:\SolveWare_Winform_V5\Dlls\SolveWare_Server_Dll.dll
+D:\SolveWare_Winform_V5\Dlls\SolveWare_Server_Dll.pdb
+D:\SolveWare_Winform_V5\SolveWare_Server_Dll\obj\Debug\SolveWare_Server_Dll.csproj.AssemblyReference.cache
+D:\SolveWare_Winform_V5\SolveWare_Server_Dll\obj\Debug\SolveWare_Server_Dll.csproj.CoreCompileInputs.cache
+D:\SolveWare_Winform_V5\SolveWare_Server_Dll\obj\Debug\SolveWare_Server_Dll.dll
+D:\SolveWare_Winform_V5\SolveWare_Server_Dll\obj\Debug\SolveWare_Server_Dll.pdb

@@ -1,0 +1,16 @@
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\obj\Debug\SolveWare_Tool_Motor.csproj.AssemblyReference.cache
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\obj\Debug\SolveWare_Tool_Motor.csproj.CoreCompileInputs.cache
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\bin\Debug\SolveWare_Tool_Motor.dll
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\bin\Debug\SolveWare_Tool_Motor.pdb
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\bin\Debug\SolveWare_Server_Dll.dll
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\bin\Debug\SolveWare_Service_Core.dll
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\bin\Debug\HandyControl.dll
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\bin\Debug\Utilities.dll
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\bin\Debug\SolveWare_Server_Dll.pdb
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\bin\Debug\SolveWare_Service_Core.pdb
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\bin\Debug\HandyControl.xml
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\obj\Debug\SolveWare_Tool_Motor.csproj.CopyComplete
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\obj\Debug\SolveWare_Tool_Motor.dll
+D:\SolveWare_Winform_V5\SolveWare_Tool_Motor\obj\Debug\SolveWare_Tool_Motor.pdb
+D:\SolveWare_Winform_V5\Dlls\SolveWare_Tool_Motor.dll
+D:\SolveWare_Winform_V5\Dlls\SolveWare_Tool_Motor.pdb

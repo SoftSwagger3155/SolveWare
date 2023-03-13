@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18A97658-1004-4FAC-962F-5BAA8D7F3787}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SolveWare_Service_Vision</RootNamespace>
+    <AssemblyName>SolveWare_Service_Vision</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Dlls\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\Abstract\VisionJobSheetBase.cs" />
+    <Compile Include="Base\Interface\IVisionJobSheet.cs" />
+    <Compile Include="Business\VisionJobSheet_Brightness.cs" />
+    <Compile Include="Business\VisionJobSheet_Lighting.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Definitions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SolveWare_Service_Core\SolveWare_Service_Core.csproj">
+      <Project>{BD082BC3-991C-46AF-B94E-78E26C16E0DE}</Project>
+      <Name>SolveWare_Service_Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SolveWare_Tool_Camera\SolveWare_Tool_Camera.csproj">
+      <Project>{7AD17589-EFDF-430B-9C6F-324E1D93EF99}</Project>
+      <Name>SolveWare_Tool_Camera</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SolveWare_Tool_Lighting\SolveWare_Tool_Lighting.csproj">
+      <Project>{50A2CDD9-2254-45F9-879A-BF5B1824731D}</Project>
+      <Name>SolveWare_Tool_Lighting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

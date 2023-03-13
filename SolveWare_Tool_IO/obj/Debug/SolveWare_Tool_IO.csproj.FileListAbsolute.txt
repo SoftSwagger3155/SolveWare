@@ -1,0 +1,7 @@
+D:\SolveWare_Winform_V5\Dlls\SolveWare_Tool_IO.dll
+D:\SolveWare_Winform_V5\Dlls\SolveWare_Tool_IO.pdb
+D:\SolveWare_Winform_V5\SolveWare_Tool_IO\obj\Debug\SolveWare_Tool_IO.csproj.AssemblyReference.cache
+D:\SolveWare_Winform_V5\SolveWare_Tool_IO\obj\Debug\SolveWare_Tool_IO.csproj.CoreCompileInputs.cache
+D:\SolveWare_Winform_V5\SolveWare_Tool_IO\obj\Debug\SolveWare_Tool_IO.csproj.CopyComplete
+D:\SolveWare_Winform_V5\SolveWare_Tool_IO\obj\Debug\SolveWare_Tool_IO.dll
+D:\SolveWare_Winform_V5\SolveWare_Tool_IO\obj\Debug\SolveWare_Tool_IO.pdb

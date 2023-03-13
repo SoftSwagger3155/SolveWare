@@ -1,0 +1,6 @@
+D:\SolveWare_Winform_V5\SolveWare_Service_Vision\bin\Debug\SolveWare_Service_Vision.dll
+D:\SolveWare_Winform_V5\SolveWare_Service_Vision\bin\Debug\SolveWare_Service_Vision.pdb
+D:\SolveWare_Winform_V5\SolveWare_Service_Vision\obj\Debug\SolveWare_Service_Vision.csproj.AssemblyReference.cache
+D:\SolveWare_Winform_V5\SolveWare_Service_Vision\obj\Debug\SolveWare_Service_Vision.csproj.CoreCompileInputs.cache
+D:\SolveWare_Winform_V5\SolveWare_Service_Vision\obj\Debug\SolveWare_Service_Vision.dll
+D:\SolveWare_Winform_V5\SolveWare_Service_Vision\obj\Debug\SolveWare_Service_Vision.pdb

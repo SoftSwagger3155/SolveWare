@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C011978-847B-4ACD-9CD7-900E56DD8BBF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SolveWare_Tool_Motor</RootNamespace>
+    <AssemblyName>SolveWare_Tool_Motor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Dlls\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\Resource_Tool_Motor_Indicator.cs" />
+    <Compile Include="Base\Abstract\AxisBase.cs" />
+    <Compile Include="Base\Interface\ISafeKeeper.cs" />
+    <Compile Include="Business\Factory_Motor.cs" />
+    <Compile Include="Business\Motor_DMC3600.cs" />
+    <Compile Include="Business\SafeKeeper.cs" />
+    <Compile Include="Data\AxisConfigData.cs" />
+    <Compile Include="Data\MtrConfig.cs" />
+    <Compile Include="Data\MtrMisc.cs" />
+    <Compile Include="Data\MtrSafe.cs" />
+    <Compile Include="Data\MtrSpeed.cs" />
+    <Compile Include="Data\MtrTable.cs" />
+    <Compile Include="Definitions\Enum_Custom_Home_Type.cs" />
+    <Compile Include="Definitions\Enum_Direction_State.cs" />
+    <Compile Include="Definitions\Enum_IO_Status_DMC3600.cs" />
+    <Compile Include="Definitions\Enum_Limit_Config.cs" />
+    <Compile Include="Definitions\Enum_Master_Driver_Motor.cs" />
+    <Compile Include="Extension\Motor_Extension_Method.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SolveWare_Server_Dll\SolveWare_Server_Dll.csproj">
+      <Project>{9723D28C-310E-4095-8FB6-EF571EE18120}</Project>
+      <Name>SolveWare_Server_Dll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SolveWare_Service_Core\SolveWare_Service_Core.csproj">
+      <Project>{BD082BC3-991C-46AF-B94E-78E26C16E0DE}</Project>
+      <Name>SolveWare_Service_Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
